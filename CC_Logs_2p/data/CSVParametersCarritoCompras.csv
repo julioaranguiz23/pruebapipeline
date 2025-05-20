@@ -1,0 +1,5 @@
+user,pass,producto,producto2,producto3,Total
+standard_user,secret_sauce,Sauce Labs Backpack,,,1
+standard_user,secret_sauce,Sauce Labs Bike Light,Sauce Labs Backpack,,2
+standard_user,secret_sauce,Sauce Labs Bolt T-Shirt,Sauce Labs Bike Light,Sauce Labs Backpack,3
+standard_user,secret_sauce,Sauce Labs Bolt T-Shirt,,,1
