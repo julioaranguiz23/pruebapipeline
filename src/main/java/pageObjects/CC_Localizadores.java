@@ -5,7 +5,7 @@ public interface CC_Localizadores {
 	//Login
 	String inputUsuario = "//*[@id=\"user-name\"]"; //XPATH
 	String inputContrasena = "//*[@id=\"password\"]"; //XPATH
-	String buttonIniciarSesion = "//*[id=\"login-button\"]"; //XPATH
+	String buttonIniciarSesion = "//*[@id=\"login-button\"]"; //XPATH
 	
 	//Lista de Productos
 	String labelPaginaProductos = "//*[@id=\"header_container\"]/div[2]/span";
