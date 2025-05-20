@@ -132,9 +132,15 @@ public class GG_BaseTest {
 
             //Skip captcha
             ChromeOptions options = new ChromeOptions();
+            ChromeOptions options2 = new ChromeOptions();
 
             //options.addArguments("--headless", "--disable-gpu",
             options.addArguments("--disable-gpu",
+            "--window-size=1920,1200",
+            "--ignore-certificate-errors", "--disable-extensions", "--no-sandbox",
+            "--disable-dev-shm-usage");
+            
+            options2.addArguments("--headless", "--disable-gpu",
             "--window-size=1920,1200",
             "--ignore-certificate-errors", "--disable-extensions", "--no-sandbox",
             "--disable-dev-shm-usage");
@@ -147,7 +153,7 @@ public class GG_BaseTest {
             if (CC_Test.gloVerFlujo.equals("S")) { //Ver el Flujo en el Browser
             	driver = new ChromeDriver(options);
             } else {
-            	driver = new ChromeDriver(options); //el argumento options es para que se ejecute en background
+            	driver = new ChromeDriver(options2); //el argumento options es para que se ejecute en background
             }
             //Skip captcha
             
