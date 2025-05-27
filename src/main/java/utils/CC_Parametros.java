@@ -9,7 +9,7 @@ public interface CC_Parametros {
     String gloDir = "CC_Logs_2p//";
     
     //Archivo CSV con los datos de entrada
-    int gloColumnas = 5;
+    int gloColumnas = 6;
     String gloNombreCSV = "CSVParametersCarritoCompras.csv";
     //Fin
 }
